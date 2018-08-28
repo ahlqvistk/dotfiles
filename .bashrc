@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 PS1='\u@\h:\w\$ '
 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 alias vi='nvim'
 alias vim='nvim'
