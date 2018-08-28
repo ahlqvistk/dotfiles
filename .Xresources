@@ -1,0 +1,11 @@
+Xft.dpi: 144
+
+XTerm*faceName: DejaVu Sans Mono
+XTerm*faceSize: 11
+
+XTerm*selectToClipboard: true
+XTerm*VT100.Translations: #override \
+  Shift Ctrl<Key>V: insert-selection(CLIPBOARD) \n\
+  Shift Ctrl<Key>V: insert-selection(PRIMARY)
+
+#include ".Xresources.light"
