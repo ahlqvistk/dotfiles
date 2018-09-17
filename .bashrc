@@ -23,3 +23,9 @@ alias vi='nvim'
 alias vim='nvim'
 export EDITOR='nvim'
 export VISUAL='nvim'
+
+# Torrent
+function torrent
+{
+  qbittorrent-nox --save-path=$PWD $1
+}
