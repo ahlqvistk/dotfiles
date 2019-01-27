@@ -1,5 +1,7 @@
 Xft.dpi: 144
 
+Xcursor.size: 32
+
 XTerm*faceName: DejaVu Sans Mono
 XTerm*faceSize: 11
 

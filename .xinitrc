@@ -8,7 +8,7 @@ setxkbmap usse
 xcape -e "Hyper_L=Tab;Hyper_R=backslash"
 
 # Start notify-osd for notify-send to work
-/usr/lib/notify-osd-customizable/notify-osd &
+/usr/bin/dunst &
 
 # Start Redshift if not already running
 pgrep redshift &> /dev/null || redshift &> /dev/null &
@@ -18,6 +18,9 @@ pgrep redshift &> /dev/null || redshift &> /dev/null &
 
 # Use unclutter to hide the mouse when not used
 unclutter -root -idle 3 &
+
+# Set cursor to left pointing arrow head
+xsetroot -cursor_name left_ptr
 
 # Start XMonad
 exec xmonad
